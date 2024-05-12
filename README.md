@@ -18,8 +18,8 @@ Importing raw data .csv file into Power BI & transform to Power Query editor for
 Cleaning is done by removing empty column, removing duplicates, errors etc.
 Replacing values in column with proper values and naming.
 Detecting data type of every column, using the auto detect data type function in Power query editor.
-3. Data processing:
 
+3. Data processing:
 In the Power Query editor, creating new column called "AttritionCount" by using conditional column feature in add column which is created on the basis of certain condition like (IF attrition = 'Yes' then 1, Else 0).
 This new column is further used for creating different KPI's and charts.Then creating the Attrition Rate by applying DAX queries, adding new measure (Attrition Rate = SUM([AttritionCount]))/SUM([Employeecount])) in %.
 
