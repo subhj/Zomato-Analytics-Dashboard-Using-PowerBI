@@ -20,10 +20,11 @@ Replacing values in column with proper values and naming.
 Detecting data type of every column, using the auto detect data type function in Power query editor.
 
 3. Data processing:
-In the Power Query editor, creating new column called "AttritionCount" by using conditional column feature in add column which is created on the basis of certain condition like (IF attrition = 'Yes' then 1, Else 0).
+In the Power Query editor, replaced null city with other and made four KPI cards ( sales_value sales_amount, rating_count, order_count) and also used varous dax(data analysis expression) functions like
+format(for date manipulation) , count (for getting restraunt raiting & count how many orders have been made)
 This new column is further used for creating different KPI's and charts.Then creating the Attrition Rate by applying DAX queries, adding new measure (Attrition Rate = SUM([AttritionCount]))/SUM([Employeecount])) in %.
 
-4. Data analysis:
+5. Data analysis:
 
 Analysis involves the creation of a range of visual representations, including bar charts, key performance indicators (KPIs), table charts, pie charts, and other relevant visualizations.
 
