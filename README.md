@@ -21,8 +21,8 @@ Detecting data type of every column, using the auto detect data type function in
 
 3. Data processing:
 In the Power Query editor, replaced null city with other and made four KPI cards ( sales_value sales_amount, rating_count, order_count) and also used varous dax(data analysis expression) functions like
-format(for date manipulation) , count (for getting restraunt raiting & count how many orders have been made)
-This new column is further used for creating different KPI's and charts.Then creating the Attrition Rate by applying DAX queries, adding new measure (Attrition Rate = SUM([AttritionCount]))/SUM([Employeecount])) in %.
+format(for date manipulation) , count (for getting restraunt raiting & count how many orders have been made) made a new column called veg_non_veg for making cards and replaced null values and labelled as others.
+
 
 5. Data analysis:
 
