@@ -8,7 +8,6 @@ Dive deep into orders and restaurant data to uncover valuable insights.
 Develop interactive dashboards to visualize key  metrics.
 Provide data-driven recommendations for strategic decision-making.
 Steps followed:
-Download the dataset from here
 
 1. Data Gathering:
 
